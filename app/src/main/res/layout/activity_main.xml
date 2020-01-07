@@ -35,6 +35,7 @@
 
 
                 <ImageView
+                    android:id="@+id/ivRecordVoice"
                     android:layout_width="@dimen/dim30"
                     android:src="@mipmap/mic"
                     android:layout_marginEnd="@dimen/dim5"

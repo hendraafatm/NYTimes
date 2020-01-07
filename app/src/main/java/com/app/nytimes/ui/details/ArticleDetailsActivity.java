@@ -68,7 +68,6 @@ public class ArticleDetailsActivity extends BaseActivity {
         tvCaption.setText(resultsItem.getMedia().get(0).getCaption());
 
         if (!resultsItem.getMedia().isEmpty()) {
-            Log.d("imageur",resultsItem.getMedia().get(0).getMediaMetadata().get(0).getUrl());
             Picasso.get().load(resultsItem.getMedia().get(0).getMediaMetadata().get(0).getUrl()).into(ivImage);
         }
     }
